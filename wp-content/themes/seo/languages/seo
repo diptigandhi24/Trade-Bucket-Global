@@ -1,0 +1,369 @@
+# Copyright (C) 2015 the WordPress team
+msgid ""
+msgstr ""
+"Project-Id-Version: Seo  1.1.4\n"
+"Report-Msgid-Bugs-To: http://seosthemes.com/seo-wordpress-theme/\n"
+"POT-Creation-Date: 2015-12-04 19:47:38+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <seosbg@gmail.com>\n"
+"Language-Team: LANGUAGE <seosbg@gmail.com>\n"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found"
+msgstr ""
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search"
+msgstr ""
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr ""
+
+#: 404.php:44
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: comments.php:29
+msgid "One thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo"
+msgstr ""
+
+#: comments.php:38
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:41
+#: comments.php:62
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:42
+#: comments.php:63
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:59
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:75
+msgid "Comments are closed"
+msgstr ""
+
+#: footer.php:68
+msgid "All rights reserved"
+msgstr ""
+
+#: footer.php:69
+msgid "Powered by"
+msgstr ""
+
+#: footer.php:70
+msgid "Theme by SEOS"
+msgstr ""
+
+#: functions.php:69
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:81
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:92
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:103
+msgid "Footer 3"
+msgstr ""
+
+#: functions.php:114
+msgid "Footer 4"
+msgstr ""
+
+#: home.php:88
+#: home.php:110
+#: home.php:132
+#: functions.php:165
+msgid "Read More"
+msgstr ""
+
+#: functions.php:204
+#: template-parts/content-page.php:19
+#: template-parts/content.php:37
+#: template-parts/single.php:23
+msgid "Pages"
+msgstr ""
+
+#: functions.php:210
+msgid "Next"
+msgstr ""
+
+#: header.php:32
+#: home.php:30
+msgid "Skip to content"
+msgstr ""
+
+#: search.php:16
+msgid "Search Results for"
+msgstr ""
+
+#: searchform.php:8
+msgid "Search for"
+msgstr ""
+
+#: inc/custom-header.php:29
+msgid "Header Color"
+msgstr ""
+
+#: inc/custom-header.php:74
+msgid "Header Img"
+msgstr ""
+
+#: inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/template-tags.php:27
+msgid "Older posts"
+msgstr ""
+
+#: inc/template-tags.php:31
+msgid "Newer posts"
+msgstr ""
+
+#: inc/template-tags.php:56
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:86
+msgid "Posted on"
+msgstr ""
+
+#: inc/template-tags.php:91
+msgid "by %s', 'post author"
+msgstr ""
+
+#: inc/template-tags.php:110
+msgid "Posted in"
+msgstr ""
+
+#: inc/template-tags.php:116
+msgid "Tagged"
+msgstr ""
+
+#: template-parts/content-page.php:26
+#: inc/template-tags.php:120
+msgid "Edit"
+msgstr ""
+
+#: inc/template-tags.php:137
+msgid "Category"
+msgstr ""
+
+#: inc/template-tags.php:139
+msgid "Tag"
+msgstr ""
+
+#: inc/template-tags.php:141
+msgid "Author"
+msgstr ""
+
+#: inc/template-tags.php:145
+msgid "Month"
+msgstr ""
+
+#: inc/template-tags.php:147
+msgid "Day"
+msgstr ""
+
+#: inc/template-tags.php:150
+msgid "Asides"
+msgstr ""
+
+#: inc/template-tags.php:152
+msgid "Galleries"
+msgstr ""
+
+#: inc/template-tags.php:154
+msgid "Galleries"
+msgstr ""
+
+#: inc/template-tags.php:156
+msgid "Videos"
+msgstr ""
+
+#: inc/template-tags.php:158
+msgid "Quotes"
+msgstr ""
+
+#: inc/template-tags.php:160
+msgid "Links"
+msgstr ""
+
+#: inc/template-tags.php:164
+msgid "Audio"
+msgstr ""
+
+#: inc/template-tags.php:166
+msgid "Chats"
+msgstr ""
+
+#: inc/template-tags.php:169
+#: inc/template-tags.php:175
+msgid "Archives"
+msgstr ""
+
+#: inc/extras.php:52
+msgid "Page"
+msgstr ""
+
+#: inc/customizer.php:38
+msgid "Home Page Canonical"
+msgstr ""
+
+#: inc/customizer.php:39
+msgid "Your Canonical URL - The Canonical URL tag attribute is similar in many ways to a 301 redirect from an SEO perspective. In essence, you\'re telling the engines that multiple pages should be considered as one (which a 301 does), without actually redirecting visitors to the new URL "
+msgstr ""
+
+#: inc/customizer.php:47
+msgid "Enter your canonical"
+msgstr ""
+
+#: inc/customizer.php:65
+msgid "Google verification"
+msgstr ""
+
+#: inc/customizer.php:66
+msgid "Your google verification code - You can use Google Analytics or Google Tag Manager to verify your ownership of a site on Google Search Console. Go to Webmaster Central and click Add a site. Enter the URL of your site. Two tabs are provided: Recommended method and Alternate methods. If neither Google Analytics nor Google Tag Manager is recommended, select Alternate methods. Select either Google Analytics or Google Tag Manager and click Verify"
+msgstr ""
+
+#: inc/customizer.php:74
+msgid "Enter your google verification code"
+msgstr ""
+
+#: inc/customizer.php:91
+msgid "Shortcut Icon"
+msgstr ""
+
+#: inc/customizer.php:92
+msgid "These options allow you to post url shortcut icon"
+msgstr ""
+
+#: inc/customizer.php:100
+msgid "Enter your Shortcut Icon"
+msgstr ""
+
+#: inc/customizer.php:117
+msgid "Slide"
+msgstr ""
+
+#: inc/customizer.php:118
+msgid "Home Page Slide"
+msgstr ""
+
+#: inc/customizer.php:127
+msgid "Enter your Slide Img URL"
+msgstr ""
+
+#: inc/customizer.php:138
+msgid "Enter your Slide Title"
+msgstr ""
+
+#: inc/customizer.php:148
+msgid "Enter your Slide URL"
+msgstr ""
+
+#: inc/customizer.php:158
+msgid "Enter your Slide Content"
+msgstr ""
+
+#: inc/customizer.php:176
+msgid "Images Homepage"
+msgstr ""
+
+#: inc/customizer.php:185
+msgid "Enter Img URL 1"
+msgstr ""
+
+#: inc/customizer.php:195
+msgid "Enter Title 1"
+msgstr ""
+
+#: inc/customizer.php:205
+msgid "Enter URL 1"
+msgstr ""
+
+#: inc/customizer.php:215
+msgid "Enter Explanation 1"
+msgstr ""
+
+#: inc/customizer.php:228
+msgid "Enter Img URL 2"
+msgstr ""
+
+#: inc/customizer.php:238
+msgid "Enter Title 2"
+msgstr ""
+
+#: inc/customizer.php:248
+msgid "Enter URL 2"
+msgstr ""
+
+#: inc/customizer.php:258
+msgid "Enter Explanation 2"
+msgstr ""
+
+#: inc/customizer.php:271
+msgid "Enter Img URL 3"
+msgstr ""
+
+#: inc/customizer.php:281
+msgid "Enter Title 3"
+msgstr ""
+
+#: inc/customizer.php:291
+msgid "Enter URL 3"
+msgstr ""
+
+#: inc/customizer.php:301
+msgid "Enter Explanation 3"
+msgstr ""
+
+#: inc/customizer.php:319
+msgid "How to use Seo Theme"
+msgstr ""
+
+#: inc/customizer.php:320
+msgid "How to use Seo Theme"
+msgstr ""
+
+#: inc/customizer.php:329
+msgid "How to use Seo Theme"
+msgstr ""
+
+#: template-parts/content.php:30
+msgid "Continue reading"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:20
+msgid "Ready to publish your first post? <a href="%1$s">Get started here</a>"
+msgstr ""
+
+#: template-parts/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords"
+msgstr ""
+
+#: template-parts/content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help"
+msgstr ""
+
+

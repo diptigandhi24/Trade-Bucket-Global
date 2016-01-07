@@ -1,0 +1,9 @@
+Seo changelog
+
+= Version 1.2.3 =
+* ADDED: Create changelog file
+* ADDED: Translation ready
+* FIXED: Issues with conflict class="clear".
+
+= Version 1.1.3 =
+* Initial release
