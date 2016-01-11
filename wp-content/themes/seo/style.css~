@@ -255,13 +255,17 @@ textarea {
 	width:100%;
 }
 .calllogo{
-	margin-left:100px;
+	margin-left:2%;
+
+}
+.calllogo2{
+	margin-left:0.5%;
 
 }
 .calldetails{
 	margin-top:0px;
 	margin-left:5px;
-	margin-right:50px;
+	margin-right:1%;
 	margin-bottom:10px;	
 	display:inline-block;
 	
@@ -322,6 +326,7 @@ header .site-description {
 
 nav {
 	text-align: center;
+	max-height:32px;
 }
 
 
@@ -331,8 +336,7 @@ nav ul {
 	list-style: none;
 	color: #FFFFFF;
 	z-index: 99999;
-	list-style: none;
-	margin: 10px ,10px,10px,10px;
+	margin: 10px,10px,10px,10px;
 	padding-left: 0;
 	min-width: 500px;
 }
@@ -353,7 +357,8 @@ nav ul li {
 	float: left;
 	text-align: center;
 	min-width: 150px;
-	margin:10,0,0,0;
+	min-height:32px;
+	margin:10px,0px,0px,0px;
 }
 
 nav ul li a:hover {
@@ -381,13 +386,14 @@ nav ul li a {
 	font-family: 'Oswald', sans-serif;
 	font-size: 16px;
 	display: block;
+	text-align:center;
 	text-decoration: none;
 	-webkit-transition: all 0.3s linear 0s;
 	-moz-transition: all 0.3s linear 0s;
 	-o-transition: all 0.3s linear 0s;
 	transition: all 0.3s linear 0s;
 	color: #FFFFFF;
-	padding: 5px;
+	min-height:32px;
 	background: #b3b3b3; 
 	border-right:3px solid #ffffff;
 }
@@ -481,13 +487,20 @@ nav:after {
     width: 250px;
 }
 .home-box-content ul {
-    float: left;
+	float: left;
 	list-style: none;
 	-webkit-padding-start: 0px;
+	margin-bottom:0px;
+	width:100%;
 	
 }
 .home-box-content h1{
 	font-size:20px;
+}
+.home-box-content ul li{
+	padding-top:3px;
+	padding-bottom:3px;
+	border-bottom:1px solid #f2f2f2;
 }
 #content {
 	border-bottom: 1px solid #DDDDDD;
@@ -1286,7 +1299,7 @@ a:active {
 
 }
 
-@media screen and (max-width: 1008px) {
+@media screen and (max-width: 1010px) {
 
 	header .site-title a,
 	header .site-title {
@@ -1299,7 +1312,7 @@ a:active {
 
 	#menu-icon {
 		width: 52px;
-		height: 44px;
+		height: 33px;
 		display: block;
 	}
 
@@ -1371,9 +1384,10 @@ a:active {
 	.site-branding {
 		-webkit-box-shadow: inset 13px -1px 160px 94px rgba(178,178,178,1);
 		-moz-box-shadow: inset 13px -1px 160px 94px rgba(178,178,178,1);
-		box-shadow: inset 13px -1px 160px 94px rgba(255,215,0,1);
+		box-shadow: inset 13px -1px 160px 94px rgba(0,0,0,0);
 	}
 	header .calllogo{display:none;}
+	header .calllogo2{display:none;}
 	header .calldetails{display:none;}
 	.slide-url {
 		width: 80%;
@@ -1422,7 +1436,7 @@ img {
 
 	#menu-icon {
 		width: 52px;
-		height: 44px;
+		height: 33px;
 		display: block;
 	}
 
@@ -1493,9 +1507,10 @@ img {
 	.site-branding {
 		-webkit-box-shadow: inset 13px -1px 160px 94px rgba(178,178,178,1);
 		-moz-box-shadow: inset 13px -1px 160px 94px rgba(178,178,178,1);
-		box-shadow: inset 13px -1px 160px 94px rgba(255,215,0,1);
+		box-shadow: inset 13px -1px 160px 94px rgba(0,0,0,0);
 	}
 	header .calllogo{display:none;}
+	header .calllogo2{display:none}
 	header .calldetails{display:none;}
 	.slide-url {
 		width: 80%;

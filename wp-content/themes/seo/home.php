@@ -34,7 +34,7 @@
 				<img src="<?php bloginfo('stylesheet_directory'); ?>/img/Trade-Bucket-Global.png"/>
 				<img class="calllogo" src="<?php bloginfo('stylesheet_directory'); ?>/img/resizecalllogo.png"/>
 				<p class="calldetails" >call us: +91-98-2095-5392</p>
-				<img class="calllogo" src="<?php bloginfo('stylesheet_directory'); ?>/img/EmailIcon.png"/>
+				<img class="calllogo2" src="<?php bloginfo('stylesheet_directory'); ?>/img/EmailIcon.png"/>
 				<p class="calldetails" >Email us: tbdltd@hotmail.com</p>
 			</div><!-- .site-branding -->	
 			<div class="cont-nav">
@@ -120,11 +120,11 @@
 						<h1>Supported Industries</h1>
 						<img src="<?php bloginfo('stylesheet_directory'); ?>/img/boximage1.png"/>
 						<ul>
-						<li><a href="http://www.continentalgroup.com/services/air-services">Air Services</a></li>
-						<li><a href="http://www.continentalgroup.com/services/ocean-services">Ocean Services</a></li>
-						<li><a href="http://www.continentalgroup.com/services/door-to-door">Door to Door</a></li>
-						<li><a href="http://www.continentalgroup.com/services/custom-clearance">Custom Clearance</a></li>
-						<li><a href="http://www.continentalgroup.com/services/transportation-distribution">Transportation 								&amp; Distribution</a></li>
+						<li><a href="http://www.continentalgroup.com/services/air-services">Pharmaceutical and Chemaicals</a></li>
+						<li><a href="http://www.continentalgroup.com/services/ocean-services">Garments and Furnishings</a></li>
+						<li><a href="http://www.continentalgroup.com/services/door-to-door">Buiilding material/Construction Materials</a></li>
+						<li><a href="http://www.continentalgroup.com/services/custom-clearance">FMCG / Cosmetic and Food</a></li>
+						<li><a href="http://www.continentalgroup.com/services/transportation-distribution">Energy Solutions</a></li>
 						</ul>
 					</div>
 					<div class="home-box-content">

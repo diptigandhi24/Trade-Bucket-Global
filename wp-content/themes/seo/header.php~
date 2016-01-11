@@ -36,7 +36,7 @@
 				<img src="<?php bloginfo('stylesheet_directory'); ?>/img/Trade-Bucket-Global.png"/>
 				<img class="calllogo" src="<?php bloginfo('stylesheet_directory'); ?>/img/resizecalllogo.png"/>
 				<p class="calldetails" >call us: +91-98-2095-5392</p>
-				<img class="calllogo" src="<?php bloginfo('stylesheet_directory'); ?>/img/EmailIcon.png"/>
+				<img class="calllogo1" src="<?php bloginfo('stylesheet_directory'); ?>/img/EmailIcon.png"/>
 				<p class="calldetails" >Email us: tbdltd@hotmail.com</p>
 				
 			</div><!-- .site-branding -->
@@ -69,11 +69,11 @@
 
 	<ul class="sub-menu">
 		<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-100">
-			<a href="http://127.0.0.1/wordpressTradeGlobal/index.php/services/#test1">Air services</a>
+			<a href="http://127.0.0.1/wordpressTradeGlobal/index.php/services/">Air services</a>
 
 		</li>
 		<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99">
-			<a href="http://127.0.0.1/wordpressTradeGlobal/index.php/services/">Sourcing of Product</a>
+			<a href="http://127.0.0.1/wordpressTradeGlobal/index.php/services/#sourcing">Sourcing of Product</a>
 
 		</li>
 		<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98">
@@ -81,7 +81,7 @@
 
 		</li>
 		<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97">
-			<a href="http://127.0.0.1/wordpressTradeGlobal/index.php/services/">Ware housing</a>
+			<a href="http://127.0.0.1/wordpressTradeGlobal/index.php/services/#warehousing">Ware housing</a>
 		</li>
 		<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-96">
 			<a href="http://127.0.0.1/wordpressTradeGlobal/index.php/custom-clearance/">Custom Clearance</a>
