@@ -36,7 +36,7 @@
 				<img src="<?php bloginfo('stylesheet_directory'); ?>/img/Trade-Bucket-Global.png"/>
 				<img class="calllogo" src="<?php bloginfo('stylesheet_directory'); ?>/img/resizecalllogo.png"/>
 				<p class="calldetails" >call us: +91-98-2095-5392</p>
-				<img class="calllogo" src="<?php bloginfo('stylesheet_directory'); ?>/img/EmailIcon.png"/>
+				<img class="calllogo2" src="<?php bloginfo('stylesheet_directory'); ?>/img/EmailIcon.png"/>
 				<p class="calldetails" >Email us: tbdltd@hotmail.com</p>
 				
 			</div><!-- .site-branding -->
