@@ -51,10 +51,10 @@
 <a href="http://127.0.0.1/wordpressTradeGlobal/">Home</a>
 	</li>
 <li id="menu-item-78" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-78">
-<a href="http://127.0.0.1/wordpressTradeGlobal/index.php/contact-us/">Contact Us</a>
+<a href="<?php bloginfo('url'); ?>/index.php/contact-us/">Contact Us</a>
 	</li>
 <li id="menu-item-79" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-79">
-<a href="http://127.0.0.1/wordpressTradeGlobal/index.php/how-we-work/">How We Work !!</a>
+<a href="<?php bloginfo('url'); ?>/index.php/how-we-work/">How We Work !!</a>
 	</li>
 <li id="menu-item-81" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-81">
 <a href="http://127.0.0.1/wordpressTradeGlobal/index.php/supported-industries/">Supported Industries</a>
