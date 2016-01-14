@@ -48,7 +48,7 @@
 						</a>
 
 						 <ul id="menu-menu-1" class="menu"><li id="menu-item-76" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-76">
-<a href="http://127.0.0.1/wordpressTradeGlobal/">Home</a>
+<a href="<?php bloginfo('url'); ?>">Home</a>
 	</li>
 <li id="menu-item-78" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-78">
 <a href="<?php bloginfo('url'); ?>/index.php/contact-us/">Contact Us</a>
@@ -57,41 +57,41 @@
 <a href="<?php bloginfo('url'); ?>/index.php/how-we-work/">How We Work !!</a>
 	</li>
 <li id="menu-item-81" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-81">
-<a href="http://127.0.0.1/wordpressTradeGlobal/index.php/supported-industries/">Supported Industries</a>
+<a href="<?php bloginfo('url'); ?>index.php/supported-industries/">Supported Industries</a>
 </li>
 <li id="menu-item-80" class="stylecaa menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-80">
 
-<a href="http://127.0.0.1/wordpressTradeGlobal/index.php/services/">Services</a>
+<a href="<?php bloginfo('url'); ?>index.php/services/">Services</a>
 
 	<ul class="sub-menu">
 		<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-100">
-			<a href="http://127.0.0.1/wordpressTradeGlobal/index.php/services/">Air services</a>
+			<a href="<?php bloginfo('url'); ?>index.php/services/">Air services</a>
 
 		</li>
 		<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99">
-			<a href="http://127.0.0.1/wordpressTradeGlobal/index.php/services/#sourcing">Sourcing of Product</a>
+			<a href="<?php bloginfo('url'); ?>index.php/services/#sourcing">Sourcing of Product</a>
 
 		</li>
 		<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98">
-			<a href="http://127.0.0.1/wordpressTradeGlobal/index.php/services/">Import Export product across countries</a>
+			<a href="<?php bloginfo('url'); ?>index.php/services/">Import Export product across countries</a>
 
 		</li>
 		<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97">
-			<a href="http://127.0.0.1/wordpressTradeGlobal/index.php/services/#warehousing">Ware housing</a>
+			<a href="<?php bloginfo('url'); ?>index.php/services/#warehousing">Ware housing</a>
 		</li>
 		<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-96">
-			<a href="http://127.0.0.1/wordpressTradeGlobal/index.php/custom-clearance/">Custom Clearance</a>
+			<a href="<?php bloginfo('url'); ?>index.php/custom-clearance/">Custom Clearance</a>
 		</li>
 		<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95">
-			<a href="http://127.0.0.1/wordpressTradeGlobal/index.php/transportation-and-distribution/">Transportation and Distribution</a>
+			<a href="<?php bloginfo('url'); ?>index.php/transportation-and-distribution/">Transportation and Distribution</a>
 		</li>
 		<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94">
-			<a href="http://127.0.0.1/wordpressTradeGlobal/index.php/services/">Air services and Ocean Services</a>
+			<a href="<?php bloginfo('url'); ?>index.php/services/">Air services and Ocean Services</a>
 		</li>
 	</ul>
 </li>
 <li id="menu-item-121" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121">
-<a href="http://127.0.0.1/wordpressTradeGlobal/index.php/renewable-energy/">RENEWABLE ENERGY</a>
+<a href="<?php bloginfo('url'); ?>index.php/renewable-energy/">RENEWABLE ENERGY</a>
 	</li>
 </ul>						</div>		
 					</nav>
