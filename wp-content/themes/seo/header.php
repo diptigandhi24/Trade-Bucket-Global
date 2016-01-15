@@ -41,18 +41,15 @@
 				
 			</div><!-- .site-branding -->
 			
-			
 			<div class="cont-nav">
 					<nav>
-						<div class="nav-ico" >
+						<div class="nav-ico">
 						
-<a href="#" id="menu-icon" >	
+<a href="#" id="menu-icon">	
 							<span class="menu-button"> </span>
 							<span class="menu-button"> </span>
 							<span class="menu-button"> </span>
 						</a>
-
-
 
 						 <ul id="menu-menu-1" class="menu"><li id="menu-item-76" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-76">
 <a href="<?php bloginfo('url'); ?>">Home</a>
