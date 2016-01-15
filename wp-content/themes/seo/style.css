@@ -240,6 +240,7 @@ textarea {
 	border: 1px solid #ccc;
 	border-radius: 3px;
 	padding: 13px;
+	width:70%;
 }
 
 /*--------------------------------------------------------------
@@ -1508,6 +1509,7 @@ img {
 		-webkit-box-shadow: inset 13px -1px 160px 94px rgba(178,178,178,1);
 		-moz-box-shadow: inset 13px -1px 160px 94px rgba(178,178,178,1);
 		box-shadow: inset 13px -1px 160px 94px rgba(0,0,0,0);
+		padding:5px 10px 10px 10px;
 	}
 	header .calllogo{display:none;}
 	header .calllogo2{display:none}
@@ -1549,6 +1551,10 @@ img {
 }
 img { 
 	max-width: 100%; 
+}
+main {
+    width: 100%;
+    margin: auto;
 }
 
 }
