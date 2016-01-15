@@ -1,4 +1,6 @@
 <?php
+update_option( 'siteurl', 'http://ivyhome.com' );
+update_option( 'home', 'http://ivyhome.com' );
 /**
  * Seo functions and definitions
  *
