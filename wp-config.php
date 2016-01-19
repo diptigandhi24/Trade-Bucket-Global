@@ -79,8 +79,6 @@ $table_prefix  = 'wp_';
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
 define('WP_DEBUG', false);
-define('WP_HOME','http://ivyhome.com/wordpressTradeGlobal');
-define('WP_SITEURL','http://ivyhome.com/wordpressTradeGlobal');
 
 /* That's all, stop editing! Happy blogging. */
 
