@@ -236,7 +236,7 @@ input[type="url"],
 input[type="password"],
 input[type="search"],
 textarea {
-	color: #FFFFFF;
+	color: #000000;
 	border: 1px solid #ccc;
 	border-radius: 3px;
 	padding: 13px;
@@ -1329,7 +1329,6 @@ a:active {
 	.nav-ico:hover ul ul,
 	.nav-ico:hover ul ul li {
 		display: block;
-		position: relative;
 		border: none;
 		float: none;
 		width: 100%;
@@ -1434,7 +1433,7 @@ img {
 	.nav-ico ul{
 		display: none;
 	}
-
+	.nav-ico ul li .sub-menu{display:none;}
 	#menu-icon {
 		width: 52px;
 		height: 33px;
@@ -1449,14 +1448,13 @@ img {
 	
 	.nav-ico:hover ul,
 	.nav-ico:hover ul li,
-	.nav-ico:hover ul ul,
-	.nav-ico:hover ul ul li {
+	.nav-ico ul li:hover .sub-menu{
 		display: block;
-		position: relative;
+		position:relative;
 		border: none;
 		float: none;
 		width: 100%;
-		text-align: left;
+		text-align: center;
 		left: 0;
 	}
 
@@ -1464,10 +1462,6 @@ img {
 	nav ul li {
 		border: none;
 	}
-	nav ul ul li a {
-		display:none;
-	}
-	nav ul li:hover >ul li a{ display:block;}
 	nav a:hover {
 		color: #2B9BC4;
 		-webkit-transition: all 0.4s linear 0s;
@@ -1486,15 +1480,6 @@ img {
 		height: 4px;	
 		display: block;
 	}
-	
-	nav ul {
-		background: #B2490C;
-	}
-	
-	nav ul li {
-		margin: 0;
-	}
-
 	footer .footer-widgets {
 		width:100%;
 		margin: 0 auto;
