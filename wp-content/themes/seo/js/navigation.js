@@ -5,20 +5,30 @@
  * support for dropdown menus.
  */
 ( function() {
-	var container, button, menu, links, subMenus;
+	var container, button, menu, links, subMenus, menuicon;
 
-	container = document.getElementById( 'site-navigation' );
+	container = document.getElementsByClassName( 'cont-nav' )[0];
 	if ( ! container ) {
 		return;
 	}
+	else{console.log("yes container object exits" , container.childNodes.length);
+	for (var i = 1 ; i < container.childNodes.length ; i++) {
+		console.log("value of i ",i , container.childNodes[i]);
+	};
 
-	button = container.getElementsByTagName( 'button' )[0];
-	if ( 'undefined' === typeof button ) {
-		return;
-	}
+}
+	button= document.getElementById('menu-icon');
+	
+
 
 	menu = container.getElementsByTagName( 'ul' )[0];
-
+	if ( ! menu ) {
+		return;
+	}
+	else{console.log("yes button object exits" , menu.childNodes.length);
+		for (var i = 0 ; i <= menu.childNodes.length ; i++) {
+		console.log("value of i ",i , menu.childNodes[i]);
+	};}
 	// Hide menu toggle button if menu is empty and return early.
 	if ( 'undefined' === typeof menu ) {
 		button.style.display = 'none';
@@ -49,6 +59,7 @@
 	// Set menu items with submenus to aria-haspopup="true".
 	for ( var i = 0, len = subMenus.length; i < len; i++ ) {
 		subMenus[i].parentNode.setAttribute( 'aria-haspopup', 'true' );
+		console.log("link ",i , links[i]);
 	}
 
 	// Each time a menu link is focused or blurred, toggle focus.
@@ -62,7 +73,7 @@
 	 */
 	function toggleFocus() {
 		var self = this;
-
+		console.log("link is not focus");
 		// Move up through the ancestors of the current link until we hit .nav-menu.
 		while ( -1 === self.className.indexOf( 'nav-menu' ) ) {
 
@@ -70,6 +81,7 @@
 			if ( 'li' === self.tagName.toLowerCase() ) {
 				if ( -1 !== self.className.indexOf( 'focus' ) ) {
 					self.className = self.className.replace( ' focus', '' );
+
 				} else {
 					self.className += ' focus';
 				}
