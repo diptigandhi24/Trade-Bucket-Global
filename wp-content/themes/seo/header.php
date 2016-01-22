@@ -53,7 +53,7 @@
 						</a>
 
 
-
+						<div class="test">
 						 <ul id="menu-menu-1" class="menu"><li id="menu-item-76" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-76">
 <a href="<?php bloginfo('url'); ?>">Home</a>
 	</li>
@@ -96,11 +96,14 @@
 			<a href="<?php bloginfo('url'); ?>/index.php/services/#quality-control">Quality Control</a>
 		</li>
 	</ul>
+<a href="#" class="sub">+</a>
 </li>
 <li id="menu-item-121" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121">
 <a href="<?php bloginfo('url'); ?>/index.php/renewable-energy/">RENEWABLE ENERGY</a>
 	</li>
-</ul>						</div>		
+</ul>
+					</div>
+					</div>		
 					</nav>
 			</div>
 		</header><!-- #masthead -->

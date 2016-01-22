@@ -383,7 +383,7 @@ nav ul li:hover a {
 	transition: all 0.4s linear 0s;
 }
 	
-nav ul li a {
+nav ul li{
 	font-family: 'Oswald', sans-serif;
 	font-size: 16px;
 	display: block;
@@ -394,11 +394,12 @@ nav ul li a {
 	-o-transition: all 0.3s linear 0s;
 	transition: all 0.3s linear 0s;
 	color: #FFFFFF;
+	width:100%;
 	min-height:32px;
 	background: #b3b3b3; 
 	border-right:3px solid #ffffff;
 }
-	
+nav ul li a {width:50%}
 nav ul ul {
 	position: absolute;
 	border-radius: 2px;
@@ -1430,7 +1431,7 @@ img {
 		font-size: 30px;
 	}
 
-	.nav-ico ul{
+	.nav-ico .test{
 		display: none;
 	}
 	.nav-ico ul li .sub-menu{display:none;}
@@ -1446,9 +1447,9 @@ img {
 		margin: 0;
 	}
 	
-	.nav-ico:hover ul,
-	.nav-ico:hover ul li,
-	.nav-ico ul li:hover .sub-menu{
+	.test ul,
+	.test ul li,
+	.test .sub-menu{
 		display: block;
 		position:relative;
 		border: none;
@@ -1457,7 +1458,7 @@ img {
 		text-align: center;
 		left: 0;
 	}
-
+	
 	nav ul li a, 
 	nav ul li {
 		border: none;

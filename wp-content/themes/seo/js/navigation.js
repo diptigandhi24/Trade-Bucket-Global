@@ -5,7 +5,7 @@
  * support for dropdown menus.
  */
 ( function() {
-	var container, button, menu, links, subMenus, menuicon;
+	var container, button, menu, links, subMenus, menuicon , shownav;
 
 	container = document.getElementsByClassName( 'cont-nav' )[0];
 	if ( ! container ) {
@@ -39,16 +39,23 @@
 	if ( -1 === menu.className.indexOf( 'nav-menu' ) ) {
 		menu.className += ' nav-menu';
 	}
-
+	shownav=container.getElementsByClassName('test')[0];
 	button.onclick = function() {
+		
 		if ( -1 !== container.className.indexOf( 'toggled' ) ) {
+			console.log("inside if condition ");
+			button.innerHTML = "#menu-icon";
 			container.className = container.className.replace( ' toggled', '' );
 			button.setAttribute( 'aria-expanded', 'false' );
 			menu.setAttribute( 'aria-expanded', 'false' );
+			shownav.style.display="none";
 		} else {
+			button.innerHTML = "X";
+			console.log("inside onclick else condition" ,container.className.indexOf( 'toggled' ));
 			container.className += ' toggled';
 			button.setAttribute( 'aria-expanded', 'true' );
 			menu.setAttribute( 'aria-expanded', 'true' );
+			shownav.style.display="block";
 		}
 	};
 
