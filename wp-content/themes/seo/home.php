@@ -63,33 +63,33 @@
 
 <a href="<?php bloginfo('url'); ?>/index.php/services/">Services</a>
 
-	<ul class="sub-menu">
-		<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-100">
-			<a href="<?php bloginfo('url'); ?>/index.php/services/">Air services</a>
+<ul class="sub-menu">
+	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-100">
+		<a href="<?php bloginfo('url'); ?>/index.php/services/">Air services</a>
 
-		</li>
-		<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99">
-			<a href="<?php bloginfo('url'); ?>/index.php/services/#sourcing">Sourcing of Product</a>
+	</li>
+	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99">
+		<a href="<?php bloginfo('url'); ?>/index.php/services/#sourcing">Sourcing of Product</a>
 
-		</li>
-		<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98">
-			<a href="<?php bloginfo('url'); ?>/index.php/services/#ImportExport">Import Export product across countries</a>
+	</li>
+	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98">
+		<a href="<?php bloginfo('url'); ?>/index.php/services/#ImportExport">Import Export product across countries</a>
 
-		</li>
-		<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97">
-			<a href="<?php bloginfo('url'); ?>/index.php/services/#warehousing">Ware housing</a>
-		</li>
-		<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-96">
-			<a href="<?php bloginfo('url'); ?>/index.php/custom-clearance/#custom-packaging">Customize Packaging</a>
-		</li>
-		<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95">
-			<a href="<?php bloginfo('url'); ?>/index.php/transportation-and-distribution/#freight-services">Frieght Services</a>
-		</li>
-		<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94">
-			<a href="<?php bloginfo('url'); ?>/index.php/services/#quality-control">Quality Control</a>
-		</li>
-	</ul>
-<a href="#" class="sub">+</a>
+	</li>
+	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97">
+		<a href="<?php bloginfo('url'); ?>/index.php/services/#warehousing">Ware housing</a>
+	</li>
+	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-96">
+		<a href="<?php bloginfo('url'); ?>/index.php/custom-clearance/#custom-packaging">Customize Packaging</a>
+	</li>
+	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95">
+		<a href="<?php bloginfo('url'); ?>/index.php/transportation-and-distribution/#freight-services">Frieght Services</a>
+	</li>
+	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94">
+		<a href="<?php bloginfo('url'); ?>/index.php/services/#quality-control">Quality Control</a>
+	</li>
+</ul>
+<a href="#" class="sub" id = "serviceExpand">+</a>
 </li>
 <li id="menu-item-121" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121">
 <a href="<?php bloginfo('url'); ?>/index.php/renewable-energy/">RENEWABLE ENERGY</a>
