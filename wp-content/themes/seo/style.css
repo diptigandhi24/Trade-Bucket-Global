@@ -1458,6 +1458,7 @@ img {
 	}
 	.test ul{
 		width:100%;
+		min-width:100%;
 		float: left;
 		display: block;
 		text-align: center;
@@ -1477,25 +1478,42 @@ img {
     border-right: 0px;
     margin:0px;
     display: block;
-    width:68%;
+    width:100%;
 	}  
 	nav ul li a.sub{
 	display: block;
 	font-family: 'Oswald', sans-serif;
+	font-weight: 900;
 	width: 26px;
-    font-size: 30px;
+    font-size: 20px;
     border: none !important;
     text-align: center;
     height: 32px;
     z-index: 2;
+    margin-top:0px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
 	}
 	nav ul li {
 		border: none;
 	}
+	nav ul ul li a:hover {
+    color: #FFFFFF;
+    background: #b3b3b3;
+    opacity: 1;
+}
 	nav ul li:hover a {
     box-shadow: inset 0 0 0 #333333, inset 0 3px 18px #333333, inset 0 0 0 #333333;   
 }
+nav ul ul {
+	position: relative;
+	border: none;
+	float:left;
+	width: 100%;
+	text-align: center;
 
+}
 	.menu-button {
 		background: #FFFFFF;
 		border: 1px solid #FFFFFF;
