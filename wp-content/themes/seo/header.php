@@ -33,7 +33,7 @@
 	<div class="dotted">
 		<header id="masthead" class="site-header" style="background: url('<?php header_image(); ?>') repeat; height:10%">	     
 			<div class="site-branding">
-				<img src="<?php bloginfo('stylesheet_directory'); ?>/img/Trade-Bucket-Global.png"/>
+				<img src="<?php bloginfo('stylesheet_directory'); ?>/img/Trade-Bucket-Global.png" class="logoImage"/>
 				<img class="calllogo" src="<?php bloginfo('stylesheet_directory'); ?>/img/resizecalllogo.png"/>
 				<p class="calldetails" >call us: +91-98-2095-5392</p>
 				<img class="calllogo2" src="<?php bloginfo('stylesheet_directory'); ?>/img/EmailIcon.png"/>

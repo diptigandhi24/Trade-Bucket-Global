@@ -31,7 +31,7 @@
 	<div class="dotted">
 		<header id="masthead" class="site-header" style="background: url('<?php header_image(); ?>') repeat; height:10%">	     
 			<div class="site-branding">
-				<img src="<?php bloginfo('stylesheet_directory'); ?>/img/Trade-Bucket-Global.png"/>
+				<img src="<?php bloginfo('stylesheet_directory'); ?>/img/Trade-Bucket-Global.png" class="logoImage"/>
 				<img class="calllogo" src="<?php bloginfo('stylesheet_directory'); ?>/img/resizecalllogo.png"/>
 				<p class="calldetails" >call us: +91-98-2095-5392</p>
 				<img class="calllogo2" src="<?php bloginfo('stylesheet_directory'); ?>/img/EmailIcon.png"/>
@@ -108,7 +108,7 @@
 		<div class="featured-box">   
 			<div class="wrapper">
 				<div class="home-box">
-					<div class="home-box-content">
+					<div class="home-box-content" id="homebox1">
 						<h1>Services</h1>
 						 <img src="<?php bloginfo('stylesheet_directory'); ?>/img/boximage1.png"/>
 						<ul>
@@ -119,7 +119,7 @@
 						<li><a href="http://www.continentalgroup.com/services/transportation-distribution">Transportation 								&amp; Distribution</a></li>
 						</ul>
 					</div>
-					<div class="home-box-content">
+					<div class="home-box-content" id="homebox2">
 						<h1>Supported Industries</h1>
 						<img src="<?php bloginfo('stylesheet_directory'); ?>/img/boximage1.png"/>
 						<ul>
@@ -130,7 +130,7 @@
 						<li><a href="http://www.continentalgroup.com/services/transportation-distribution">Energy Solutions</a></li>
 						</ul>
 					</div>
-					<div class="home-box-content">
+					<div class="home-box-content" id="homebox3">
 						<h1>Experience</h1>
 						<img src="<?php bloginfo('stylesheet_directory'); ?>/img/boximage1.png"/>
 						<ul>

@@ -246,14 +246,22 @@ textarea {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-
+.dotted{
+	width:100%;
+	margin:auto;
+	padding:auto;
+	display: inline-block;
+	position: relative;
+}
 
 .site-branding {
-	background-image: url('img/header.png');
-	padding:40px;
-	opacity:0.8;
-	box-shadow: inset 10px -13px 160px 84px rgba(255,255,255,0.5);
-	width:100%;
+	margin: auto;
+	width:1000px;
+	height: 100px;
+}
+.logoImage{
+	padding:0px;
+	margin:0px;
 }
 .calllogo{
 	margin-left:2%;
@@ -337,9 +345,9 @@ nav ul {
 	list-style: none;
 	color: #FFFFFF;
 	z-index: 99999;
-	margin: 10px,10px,10px,10px;
+	margin: auto;
 	padding-left: 0;
-	min-width: 500px;
+	min-width: 990px;
 }
 
 nav ul ul {
@@ -358,7 +366,7 @@ nav ul:after {
 nav ul li {
 	float: left;
 	text-align: center;
-	min-width: 150px;
+	min-width: 165px;
 	min-height:32px;
 	margin:10px,0px,0px,0px;
 }
@@ -454,7 +462,7 @@ nav:after {
 
 .menu {
 	padding: 0;
-	margin: 0;
+	margin: auto;
 }
 
 /*--------------------------------------------------------------
@@ -478,13 +486,13 @@ nav:after {
 
 .home-box {
     float: left;
-    width: 100%;
-    margin: 25px 25px 25px 50px;
+    width: 1000px;
+    margin: auto;
 }
 .home-box-content {
     border: 1px solid #e5e5e5;
     float: left;
-    margin: 0 72px 0 0;
+    margin: 0 76px 0 5px;
     background: #ffffff;
     width: 250px;
 }
@@ -515,7 +523,7 @@ nav:after {
 }
 
 main {
-	width: 66%;
+	width: 993px;
 	margin:auto;
 }
 
@@ -657,11 +665,9 @@ code .col2 {
 .seos-slide {
 	background: url('img/header4.png')  no-repeat center center;
 	background-repeat: no-repeat;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	min-width: 100%;
+	min-width: 1000px;
 	height:auto;
+	margin:auto;
 	min-height:500px;
 	
 }
