@@ -246,14 +246,22 @@ textarea {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-
+.dotted{
+	width:100%;
+	margin:auto;
+	padding:auto;
+	display: inline-block;
+	position: relative;
+}
 
 .site-branding {
-	background-image: url('img/header.png');
-	padding:40px;
-	opacity:0.8;
-	box-shadow: inset 10px -13px 160px 84px rgba(255,255,255,0.5);
-	width:100%;
+	margin: auto;
+	width:1000px;
+	height: 100px;
+}
+.logoImage{
+	padding:0px;
+	margin:0px;
 }
 .calllogo{
 	margin-left:2%;
@@ -327,7 +335,8 @@ header .site-description {
 
 nav {
 	text-align: center;
-	max-height:32px;
+	max-height:35px;
+	margin-top: 0px;
 }
 
 
@@ -337,9 +346,9 @@ nav ul {
 	list-style: none;
 	color: #FFFFFF;
 	z-index: 99999;
-	margin: 10px,10px,10px,10px;
+	margin: auto;
 	padding-left: 0;
-	min-width: 500px;
+	min-width: 990px;
 }
 
 nav ul ul {
@@ -349,6 +358,7 @@ nav ul ul {
 nav ul li:hover > ul {
 	display: block;
 }
+nav ul li a.sub{display:none;}
 
 nav ul:after {
 	content: ""; clear: both; display: block;
@@ -357,7 +367,7 @@ nav ul:after {
 nav ul li {
 	float: left;
 	text-align: center;
-	min-width: 150px;
+	min-width: 165px;
 	min-height:32px;
 	margin:10px,0px,0px,0px;
 }
@@ -383,7 +393,7 @@ nav ul li:hover a {
 	transition: all 0.4s linear 0s;
 }
 	
-nav ul li{
+nav ul li a {
 	font-family: 'Oswald', sans-serif;
 	font-size: 16px;
 	display: block;
@@ -394,12 +404,11 @@ nav ul li{
 	-o-transition: all 0.3s linear 0s;
 	transition: all 0.3s linear 0s;
 	color: #FFFFFF;
-	width:100%;
 	min-height:32px;
 	background: #b3b3b3; 
 	border-right:3px solid #ffffff;
 }
-nav ul li a {width:50%}
+	
 nav ul ul {
 	position: absolute;
 	border-radius: 2px;
@@ -454,7 +463,7 @@ nav:after {
 
 .menu {
 	padding: 0;
-	margin: 0;
+	margin: auto;
 }
 
 /*--------------------------------------------------------------
@@ -478,15 +487,15 @@ nav:after {
 
 .home-box {
     float: left;
-    width: 100%;
-    margin: 25px 25px 25px 50px;
+    width: 1000px;
+    margin: auto;
 }
 .home-box-content {
     border: 1px solid #e5e5e5;
     float: left;
-    margin: 0 72px 0 0;
+    margin: 0 25px 0 5px;
     background: #ffffff;
-    width: 250px;
+    width: 301px;
 }
 .home-box-content ul {
 	float: left;
@@ -515,7 +524,7 @@ nav:after {
 }
 
 main {
-	width: 66%;
+	width: 993px;
 	margin:auto;
 }
 
@@ -657,11 +666,9 @@ code .col2 {
 .seos-slide {
 	background: url('img/header4.png')  no-repeat center center;
 	background-repeat: no-repeat;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	min-width: 100%;
+	min-width: 1000px;
 	height:auto;
+	margin:auto;
 	min-height:500px;
 	
 }
@@ -1439,6 +1446,7 @@ img {
 		width: 52px;
 		height: 33px;
 		display: block;
+		margin-top: 0px;
 	}
 
 	nav .nav-ico {
@@ -1446,37 +1454,79 @@ img {
 		padding:0;
 		margin: 0;
 	}
-	
-	.test ul,
-	.test ul li,
-	.test .sub-menu{
-		display: block;
-		position:relative;
+	.test,
+	.test ul li{
+		position: relative;
 		border: none;
-		float: none;
+		float:left;
 		width: 100%;
+		background: #b3b3b3;
+		display: inline;
 		text-align: center;
-		left: 0;
 	}
-	
-	nav ul li a, 
+	.test ul{
+		width:100%;
+		min-width:100%;
+		float: left;
+		display: block;
+		text-align: center;
+	}
+	nav ul li a{
+	font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    float:left;
+    text-align: left;
+    text-decoration: none;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+    color: #FFFFFF;
+    height: 32px;
+    border-right: 0px;
+    margin:0px;
+    display: block;
+    width:100%;
+	}  
+	nav ul li a.sub{
+	display: block;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 900;
+	width: 26px;
+    font-size: 20px;
+    border: none !important;
+    text-align: center;
+    height: 32px;
+    z-index: 2;
+    margin-top:0px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+	}
 	nav ul li {
 		border: none;
 	}
-	nav a:hover {
-		color: #2B9BC4;
-		-webkit-transition: all 0.4s linear 0s;
-		-moz-transition: all 0.4s linear 0s;
-		-o-transition: all 0.4s linear 0s;
-		transition: all 0.4s linear 0s;
+	nav ul ul li a:hover {
+    color: #FFFFFF;
+    background: #b3b3b3;
+    opacity: 1;
+}
+	nav ul li:hover a {
+    box-shadow: inset 0 0 0 #333333, inset 0 3px 18px #333333, inset 0 0 0 #333333;   
+}
+nav ul ul {
+	position: relative;
+	border: none;
+	float:left;
+	width: 100%;
+	text-align: center;
 
-	}
-
+}
 	.menu-button {
 		background: #FFFFFF;
 		border: 1px solid #FFFFFF;
 		border-radius: 2px;
-		margin: 8px 0 0 10px;
+		margin: 5px 0 0 10px;
 		width: 40px;
 		height: 4px;	
 		display: block;

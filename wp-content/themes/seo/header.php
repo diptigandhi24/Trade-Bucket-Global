@@ -22,17 +22,20 @@
 			<?php if ( get_theme_mod( 'seo_google_shortcut_icon' ) ) : ?>
 			<link rel="shortcut icon" href="<?php echo esc_url( get_theme_mod( 'seo_google_shortcut_icon' ) ); ?>">	
 			<?php endif; ?> 
-			
+			<script src="http://ivyhome.com/wordpressTradeGlobal/wp-includes/js/jquery/jquery-1.7.min.js" 
+				type="text/javascript"></script>
+			<script src="http://ivyhome.com/wordpressTradeGlobal/wp-content/themes/seo/js/jquery/featureCarousel.min.js'" 
+				type="text/javascript"></script>
+									
 
 <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'seo' ); ?></a>
 	<div class="dotted">
-		<header id="masthead" class="site-header" style="background: url('<?php header_image(); ?>') repeat; height:10%">	     
-			<div class="site-branding">
+		<header id="masthead" class="site-header box-border " style="height:170px">	     
+			<div class="site-branding " >
 				<img src="<?php bloginfo('stylesheet_directory'); ?>/img/Trade-Bucket-Global.png" class="logoImage"/>
 				<img class="calllogo" src="<?php bloginfo('stylesheet_directory'); ?>/img/resizecalllogo.png"/>
 				<p class="calldetails" >call us: +91-98-2095-5392</p>
