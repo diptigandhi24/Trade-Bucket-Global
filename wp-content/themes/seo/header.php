@@ -22,10 +22,7 @@
 			<?php if ( get_theme_mod( 'seo_google_shortcut_icon' ) ) : ?>
 			<link rel="shortcut icon" href="<?php echo esc_url( get_theme_mod( 'seo_google_shortcut_icon' ) ); ?>">	
 			<?php endif; ?> 
-			<script src="http://ivyhome.com/wordpressTradeGlobal/wp-includes/js/jquery/jquery-1.7.min.js" 
-				type="text/javascript"></script>
-			<script src="http://ivyhome.com/wordpressTradeGlobal/wp-content/themes/seo/js/jquery/featureCarousel.min.js'" 
-				type="text/javascript"></script>
+			
 									
 
 <?php wp_head(); ?>
