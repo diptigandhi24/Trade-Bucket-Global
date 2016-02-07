@@ -107,8 +107,11 @@
 
 		</header><!-- #masthead -->
 	</div>	
-	<div style="padding-top:10px"><?php wd_slider(4); ?>/>
-	<div class="slidetext"> <p style="margin:auto ; padding:auto; width:700px">Safely Product Delivery WorldWide</p></div>></div>		
+	<div style="padding-top:10px"><?php wd_slider(4); ?>
+	<div class="slidetext"> 
+	<p style="margin:auto ; padding:auto; width:700px">Safely Product Delivery WorldWide</p>
+	</div>
+	</div>		
 		
 		<div class="featured-box">   
 			<div class="wrapper">
