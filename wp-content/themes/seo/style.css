@@ -535,7 +535,7 @@ nav .nav-ico .mobileMenuIcon{display: none;}
 	padding-bottom:3px;
 	border-bottom:1px solid #f2f2f2;
 }
-.home-box-content ul li a{padding-left: 10px;color: rgba(0,0,0,0.8);}
+.home-box-content ul li a{padding-left: 10px;color: rgba(0,0,0,0.8); text-decoration: none;}
 #content {
 	border-bottom: 1px solid #DDDDDD;
 	max-width: 1380px;
