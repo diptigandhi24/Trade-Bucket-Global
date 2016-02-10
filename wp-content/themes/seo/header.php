@@ -50,25 +50,44 @@
 							<span class="menu-button"> </span>
 							<span class="menu-button"> </span>
 							<span class="menu-button"> </span>
+							<p class="mobileMenuIcon">Menu</p>
 						</a>
 
 
 						<div class="test">
 						 <ul id="menu-menu-1" class="menu"><li id="menu-item-76" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-76">
-<a href="<?php bloginfo('url'); ?>">Home</a>
+<a href="<?php bloginfo('url'); ?>">HOME</a>
 	</li>
 <li id="menu-item-78" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-78">
-<a href="<?php bloginfo('url'); ?>/index.php/contact-us/">Contact Us</a>
+<a href="<?php bloginfo('url'); ?>/index.php/contact-us/">CONTACT US</a>
 	</li>
 <li id="menu-item-79" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-79">
-<a href="<?php bloginfo('url'); ?>/index.php/how-we-work/">How We Work !!</a>
+<a href="<?php bloginfo('url'); ?>/index.php/how-we-work/">HOW WE WORK</a>
 	</li>
 <li id="menu-item-81" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-81">
-<a href="<?php bloginfo('url'); ?>/index.php/supported-industries/">Supported Industries</a>
+<a href="<?php bloginfo('url'); ?>/index.php/supported-industries/">SUPPORTED INDUSTRIES</a>
+<ul class="sub-menu">
+	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-100">
+		<a href="<?php bloginfo('url'); ?>/index.php/services/">Pharmaceutical & Chemicals</a>
+
+	</li>
+	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99">
+		<a href="<?php bloginfo('url'); ?>/index.php/services/#sourcing">Garment and Furnishing</a>
+
+	</li>
+	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98">
+		<a href="<?php bloginfo('url'); ?>/index.php/services/#ImportExport">Building Materials</a>
+
+	</li>
+	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97">
+		<a href="<?php bloginfo('url'); ?>/index.php/services/#warehousing">FMGC / Cosmetic & food</a>
+	</li>
+	
+</ul>
 </li>
 <li id="menu-item-80" class="stylecaa menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-80">
 
-<a href="<?php bloginfo('url'); ?>/index.php/services/">Services</a>
+<a href="<?php bloginfo('url'); ?>/index.php/services/">SERVICES</a>
 
 <ul class="sub-menu">
 	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-100">
@@ -80,7 +99,7 @@
 
 	</li>
 	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98">
-		<a href="<?php bloginfo('url'); ?>/index.php/services/#ImportExport">Import Export product across countries</a>
+		<a href="<?php bloginfo('url'); ?>/index.php/services/#ImportExport">Import - Export product</a>
 
 	</li>
 	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97">
@@ -99,7 +118,7 @@
 <a href="#" class="sub" id = "serviceExpand">+</a>
 </li>
 <li id="menu-item-121" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121">
-<a href="<?php bloginfo('url'); ?>/index.php/renewable-energy/">RENEWABLE ENERGY</a>
+<a href="<?php bloginfo('url'); ?>/index.php/renewable-energy/">SOLAR ENERGY</a>
 	</li>
 </ul>
 					</div>

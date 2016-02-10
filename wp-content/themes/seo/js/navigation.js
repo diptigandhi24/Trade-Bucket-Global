@@ -29,7 +29,7 @@
 		button.style.display = 'none';
 		return;
 	}
-	servicesmenu=container.getElementsByClassName('sub-menu')[0];
+	servicesmenu=container.getElementsByClassName('sub-menu')[1];
 	serviceButton=document.getElementById('serviceExpand');
 	
 	shownav=container.getElementsByClassName('test')[0];
@@ -37,13 +37,13 @@
 		
 		if ( -1 !== container.className.indexOf( 'toggled' ) ) {
 			console.log("inside if condition ");
-			button.innerHTML = "#menu-icon";
+			button.innerHTML = "<span class='menu-button'> </span><span class='menu-button'> </span><span class='menu-button'> </span><p class='mobileMenuIcon'>Menu</p>";
 			container.className = container.className.replace( ' toggled', '' );
 			button.setAttribute( 'aria-expanded', 'false' );
 			menu.setAttribute( 'aria-expanded', 'false' );
 			shownav.style.display="none";
 		} else {
-			button.innerHTML = "X";
+			button.innerHTML = "<p style='color:white;'>Close</p>";
 			console.log("inside onclick else condition" ,container.className.indexOf( 'toggled' ));
 			container.className += ' toggled';
 			button.setAttribute( 'aria-expanded', 'true' );
@@ -55,13 +55,13 @@
 		
 		if ( -1 !== servicesmenu.className.indexOf( 'doggled' ) ) {
 			console.log("inside if condition ");
-			serviceButton.innerHTML = "#menu-icon";
+			serviceButton.innerHTML = "+";
 			servicesmenu.className = servicesmenu.className.replace( ' doggled', '' );
 			serviceButton.setAttribute( 'aria-expanded', 'false' );
 			menu.setAttribute( 'aria-expanded', 'false' );
 			servicesmenu.style.display="none";
 		} else {
-			serviceButton.innerHTML = "X";
+			serviceButton.innerHTML = "close";
 			console.log("inside onclick else condition" ,servicesmenu.className.indexOf( 'doggled' ));
 			servicesmenu.className += ' doggled';
 			serviceButton.setAttribute( 'aria-expanded', 'true' );

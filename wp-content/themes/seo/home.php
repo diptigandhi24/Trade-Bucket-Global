@@ -47,6 +47,7 @@
 							<span class="menu-button"> </span>
 							<span class="menu-button"> </span>
 							<span class="menu-button"> </span>
+							<p class="mobileMenuIcon">Menu</p>
 						</a>
 						<div class="test">
 						 <ul id="menu-menu-1" class="menu"><li id="menu-item-76" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-76">
@@ -60,6 +61,25 @@
 	</li>
 <li id="menu-item-81" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-81">
 <a href="<?php bloginfo('url'); ?>/index.php/supported-industries/">Supported Industries</a>
+<ul class="sub-menu">
+	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-100">
+		<a href="<?php bloginfo('url'); ?>/index.php/services/">Pharmaceutical & Chemicals</a>
+
+	</li>
+	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99">
+		<a href="<?php bloginfo('url'); ?>/index.php/services/#sourcing">Garment and Furnishing</a>
+
+	</li>
+	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98">
+		<a href="<?php bloginfo('url'); ?>/index.php/services/#ImportExport">Building Materials</a>
+
+	</li>
+	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97">
+		<a href="<?php bloginfo('url'); ?>/index.php/services/#warehousing">FMGC / Cosmetic & food</a>
+	</li>
+	
+</ul>
+
 </li>
 <li id="menu-item-80" class="stylecaa menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-80">
 
@@ -75,7 +95,7 @@
 
 	</li>
 	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98">
-		<a href="<?php bloginfo('url'); ?>/index.php/services/#ImportExport">Import Export product across countries</a>
+		<a href="<?php bloginfo('url'); ?>/index.php/services/#ImportExport">Import - Export product</a>
 
 	</li>
 	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97">
@@ -104,11 +124,12 @@
 
 		</header><!-- #masthead -->
 	</div>	
-	<div style="padding-top:10px"><?php wd_slider(4); ?>
-	<div class="slidetext"> 
-	<p style="margin:auto ; padding:auto; width:700px">Safely Product Delivery WorldWide</p>
-	</div>
-	</div>		
+	<div class="seos-slide">
+		<div ><?php wd_slider(4); ?></div>
+		<div class="slidetext"> 
+		<h2>Safe Product Delivery WorldWide</h2>
+		</div>	
+	</div>	
 		
 		<div class="featured-box">   
 			<div class="wrapper">
@@ -126,7 +147,7 @@
 					</div>
 					<div class="home-box-content" id="homebox2">
 						<h1>Supported Industries</h1>
-						<img src="<?php bloginfo('stylesheet_directory'); ?>/img/boximage1.png"/>
+						<img src="<?php bloginfo('stylesheet_directory'); ?>/img/box2Image.jpg"/>
 						<ul>
 						<li><a href="http://www.continentalgroup.com/services/air-services">Pharmaceutical and Chemaicals</a></li>
 						<li><a href="http://www.continentalgroup.com/services/ocean-services">Garments and Furnishings</a></li>
@@ -137,7 +158,7 @@
 					</div>
 					<div class="home-box-content" id="homebox3">
 						<h1>Experience</h1>
-						<img src="<?php bloginfo('stylesheet_directory'); ?>/img/boximage1.png"/>
+						<img src="<?php bloginfo('stylesheet_directory'); ?>/img/box3Image.jpg"/>
 						<ul>
 						<li><a href="http://www.continentalgroup.com/services/air-services">Air Services</a></li>
 						<li><a href="http://www.continentalgroup.com/services/ocean-services">Ocean Services</a></li>
