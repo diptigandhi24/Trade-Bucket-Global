@@ -68,19 +68,19 @@
 <a href="<?php bloginfo('url'); ?>/index.php/supported-industries/">SUPPORTED INDUSTRIES</a>
 <ul class="sub-menu">
 	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-100">
-		<a href="<?php bloginfo('url'); ?>/index.php/services/">Pharmaceutical & Chemicals</a>
+		<a href="<?php bloginfo('url'); ?>/index.php/supported-industries/#P&C">Pharmaceutical & Chemicals</a>
 
 	</li>
 	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99">
-		<a href="<?php bloginfo('url'); ?>/index.php/services/#sourcing">Garment and Furnishing</a>
+		<a href="<?php bloginfo('url'); ?>/index.php/supported-industries/#G&F">Garment and Furnishing</a>
 
 	</li>
 	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98">
-		<a href="<?php bloginfo('url'); ?>/index.php/services/#ImportExport">Building Materials</a>
+		<a href="<?php bloginfo('url'); ?>/index.php/supported-industries/#B&c&E">Building & construction Materials & Equipments</a>
 
 	</li>
 	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97">
-		<a href="<?php bloginfo('url'); ?>/index.php/services/#warehousing">FMGC / Cosmetic & food</a>
+		<a href="<?php bloginfo('url'); ?>/index.php/supported-industries/#FMCG">FMGC / Cosmetic & food</a>
 	</li>
 	
 </ul>
