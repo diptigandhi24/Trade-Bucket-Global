@@ -65,22 +65,22 @@
 <a href="<?php bloginfo('url'); ?>/index.php/how-we-work/">HOW WE WORK</a>
 	</li>
 <li id="menu-item-81" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-81">
-<a href="<?php bloginfo('url'); ?>/index.php/supported-industries/">SUPPORTED INDUSTRIES</a>
+<a href="<?php bloginfo('url'); ?>/index.php/industries/">SUPPORTED INDUSTRIES</a>
 <ul class="sub-menu">
 	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-100">
-		<a href="<?php bloginfo('url'); ?>/index.php/supported-industries/#P&C">Pharmaceutical & Chemicals</a>
+		<a href="<?php bloginfo('url'); ?>/index.php/industries/#P&C">Pharmaceutical & Chemicals</a>
 
 	</li>
 	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99">
-		<a href="<?php bloginfo('url'); ?>/index.php/supported-industries/#G&F">Garment and Furnishing</a>
+		<a href="<?php bloginfo('url'); ?>/index.php/industries/#G&F">Garment and Furnishing</a>
 
 	</li>
 	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98">
-		<a href="<?php bloginfo('url'); ?>/index.php/supported-industries/#B&c&E">Building & construction Materials & Equipments</a>
+		<a href="<?php bloginfo('url'); ?>/index.php/industries/#B&c&E">Building & construction Materials & Equipments</a>
 
 	</li>
 	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97">
-		<a href="<?php bloginfo('url'); ?>/index.php/supported-industries/#FMCG">FMGC / Cosmetic & food</a>
+		<a href="<?php bloginfo('url'); ?>/index.php/industries/#FMCG">FMGC / Cosmetic & food</a>
 	</li>
 	
 </ul>
