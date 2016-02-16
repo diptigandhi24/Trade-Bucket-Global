@@ -685,8 +685,6 @@ code .col2 {
 }
 
 .seos-slide {
-	background: url('img/header4.png')  no-repeat center center;
-	background-repeat: no-repeat;
 	min-width: 100%;
 	height:auto;
 	min-height:500px;
