@@ -31,7 +31,7 @@
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
 	<div class="dotted">
-		<header id="masthead" class="site-header box-border" style="height:170px ">	     
+		<header id="masthead" class="site-header box-border" >	     
 			<div class="site-branding ">
 				<img src="<?php bloginfo('stylesheet_directory'); ?>/img/Trade-Bucket-Global.png" class="logoImage"/>
 				<img class="calllogo" src="<?php bloginfo('stylesheet_directory'); ?>/img/resizecalllogo.png"/>
