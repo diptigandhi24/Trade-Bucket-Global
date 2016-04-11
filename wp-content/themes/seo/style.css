@@ -157,6 +157,11 @@ q:after {<div class="box seo-clear">
 h2 , h3 {
 	font-size: 22px;
 	font-family: 'Roboto',sans-serif;
+	margin: 0px;
+}
+h6{
+	font-size: 22px;
+	font-family: 'Roboto',sans-serif;
 }
 p {
 	font-size: 15px;
@@ -218,7 +223,11 @@ footer input[type="text"], aside input[type="text"] {
 	height: 42px;
 	border: none;
 }
-
+.upper-case{
+	margin-bottom: 40px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
 button,
 input[type="url"],
 input[type="password"],
@@ -389,17 +398,18 @@ nav ul li {
 	padding: auto;
 }
 
-nav ul li a:hover {
+/*nav ul li :hover a {
 	color: #FFFFFF;
-	background: #6ADCD8;
+	background: #e3ddaf;
 	opacity: 1;
-}
+
+}*/
 
 nav ul li:hover {
 	-webkit-transition: all 0.4s linear 0s;
 	-moz-transition: all 0.4s linear 0s;
 	-o-transition: all 0.4s linear 0s;
-	transition: all 0.4s linear 0s;
+	transition: height 5s linear 2s;
 }
 
 nav ul li:hover a {
@@ -635,6 +645,12 @@ code .col2{
 	padding:auto;
 	margin:auto;
 }
+code .col3{
+	min-width: 100%;
+	margin:0px;
+	padding:0px;
+	display:inline-block;
+}
 
 code .columContent{
 	background-color: #F7F7F7;
@@ -642,8 +658,20 @@ code .columContent{
 	padding: 20px;
 	margin-bottom: 20px;
 	min-height: 592px;
-}
+	position: relative;
 
+}
+code .otherIndustries{
+	font-size: 1.5em;
+    text-transform: uppercase;
+    margin: 20px 0;
+    font-family:'Roboto', sans-serif;
+    letter-spacing: 0px;
+}
+code .rowAcol1{
+	width: 50%;
+	float: left;
+}
 
 }
 code .container:before ,code .row:before{
@@ -660,7 +688,9 @@ code .col1 {
 code .col2 {
     	width: 45%;
 	float:right;
-}}
+}
+
+}
 
 /*---------------------------------------------------------------------------------------------------------------------------------------------------
           CONTACT US ENDS
@@ -1493,10 +1523,15 @@ img {
 	margin-top:30px;
 	}
 
-	.nav-ico .test{
+	.nav-ico .showNavMenu{
 		display: none;
 	}
 	.nav-ico ul li .sub-menu{display:none;}
+	nav ul ul li a{
+		background: #157a8c;
+		color: #ffffff;
+
+	}
 	#menu-icon {
 		width: 52px;
 		height: 33px;
@@ -1505,6 +1540,11 @@ img {
 		
 	}
 
+	nav ul li:hover a {
+	color: #ffffff;
+	background: #157a8c;
+	
+}
 	nav .nav-ico {
 		width: auto;
 		padding:1px;
@@ -1517,8 +1557,8 @@ img {
 		left:70px;
 		color: white;
 	}
-	.test,
-	.test ul li{
+	.showNavMenu,
+	.showNavMenu ul li{
 		position: relative;
 		border: none;
 		float:left;
@@ -1528,7 +1568,7 @@ img {
 		text-align: center;
 
 	}
-	.test ul{
+	.showNavMenu ul{
 		width:100%;
 		min-width:100%;
 		float: left;
@@ -1537,7 +1577,7 @@ img {
 		margin-bottom: 20px;
 		background: white;
 	}
-	.test ul ul{
+	.showNavMenu ul ul{
 		width:100%;
 		min-width:100%;
 		float: left;
@@ -1565,6 +1605,7 @@ img {
     display: block;
     width:100%;
     border-radius: 0px;
+    background: #157a8c;
 	}  
 	nav ul li a.sub{
 	display: block;
@@ -1588,11 +1629,6 @@ img {
     color: #FFFFFF;
     background: #b3b3b3;
     opacity: 1;
-}
-	nav ul li:hover a {
-    color: #ffffff;
-    background: #157a8c; 
-    border-bottom: 1px solid white;
 }
 nav ul ul {
 	position: relative;
@@ -1672,6 +1708,10 @@ img {
 main {
     width: 100%;
     margin: auto;
+}
+code .rowAcol1{
+	width: 100%;
+	float: left;
 }
 
 }

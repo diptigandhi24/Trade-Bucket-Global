@@ -35,9 +35,9 @@
 			<div class="site-branding ">
 				<img src="<?php bloginfo('stylesheet_directory'); ?>/img/Trade-Bucket-Global.png" class="logoImage"/>
 				<img class="calllogo" src="<?php bloginfo('stylesheet_directory'); ?>/img/resizecalllogo.png"/>
-				<p class="calldetails" >call us: +91-98-2095-5392</p>
+				<p class="calldetails" >Call us: +91-98-2095-5392</p>
 				<img class="calllogo2" src="<?php bloginfo('stylesheet_directory'); ?>/img/EmailIcon.png"/>
-				<p class="calldetails" >Email us: tbdltd@hotmail.com</p>
+				<p class="calldetails">Email us:<a href="mailto:tbdltd@hotmail.com" style="display:inline-block ; margin-left:10px" >tbdltd@hotmail.com</a></p>
 			</div><!-- .site-branding -->	
 			<div class="cont-nav">
 					<nav>
@@ -49,7 +49,7 @@
 							<span class="menu-button"> </span>
 							<p class="mobileMenuIcon">Menu</p>
 						</a>
-						<div class="test">
+						<div class="showNavMenu ">
 						 <ul id="menu-menu-1" class="menu"><li id="menu-item-76" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-76">
 <a href="<?php bloginfo('url'); ?>" >Home</a>
 	</li>
@@ -59,6 +59,39 @@
 <li id="menu-item-79" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-79">
 <a href="<?php bloginfo('url'); ?>/index.php/how-we-work/">How We Work !!</a>
 	</li>
+<li id="menu-item-80" class="stylecaa menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-80">
+
+							<a href="<?php bloginfo('url'); ?>/index.php/services/">SERVICES</a>
+
+								<ul class="sub-menu">
+									<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-100">
+										<a href="<?php bloginfo('url'); ?>/index.php/services/">Air services</a>
+
+									</li>
+									<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99">
+										<a href="<?php bloginfo('url'); ?>/index.php/services/#sourcing">Sourcing of Product</a>
+
+									</li>
+									<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98">
+										<a href="<?php bloginfo('url'); ?>/index.php/services/#ImportExport">Import - Export product</a>
+
+									</li>
+									<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97">
+										<a href="<?php bloginfo('url'); ?>/index.php/services/#warehousing">Ware housing</a>
+									</li>
+									<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-96">
+										<a href="<?php bloginfo('url'); ?>/index.php/custom-clearance/#custom-packaging">Customize Packaging</a>
+									</li>
+									<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95">
+										<a href="<?php bloginfo('url'); ?>/index.php/transportation-and-distribution/#freight-services">Frieght Services</a>
+									</li>
+									<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94">
+										<a href="<?php bloginfo('url'); ?>/index.php/services/#quality-control">Quality Control</a>
+									</li>
+								</ul>
+								<a href="#" class="sub" id = "servicesSubmenuButton">+</a>
+							
+							</li>
 <li id="menu-item-81" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-81">
 <a href="<?php bloginfo('url'); ?>/index.php/industries/">Supported Industries</a>
 <ul class="sub-menu">
@@ -80,41 +113,12 @@
 	
 </ul>
 
+<a href="#" class="sub" id = "supportedIndustriesSubmenuButton">+</a>
+
 </li>
-<li id="menu-item-80" class="stylecaa menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-80">
 
-<a href="<?php bloginfo('url'); ?>/index.php/services/">Services</a>
-
-<ul class="sub-menu">
-	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-100">
-		<a href="<?php bloginfo('url'); ?>/index.php/services/">Air services</a>
-
-	</li>
-	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99">
-		<a href="<?php bloginfo('url'); ?>/index.php/services/#sourcing">Sourcing of Product</a>
-
-	</li>
-	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98">
-		<a href="<?php bloginfo('url'); ?>/index.php/services/#ImportExport">Import - Export product</a>
-
-	</li>
-	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97">
-		<a href="<?php bloginfo('url'); ?>/index.php/services/#warehousing">Ware housing</a>
-	</li>
-	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-96">
-		<a href="<?php bloginfo('url'); ?>/index.php/custom-clearance/#custom-packaging">Customize Packaging</a>
-	</li>
-	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95">
-		<a href="<?php bloginfo('url'); ?>/index.php/transportation-and-distribution/#freight-services">Frieght Services</a>
-	</li>
-	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94">
-		<a href="<?php bloginfo('url'); ?>/index.php/services/#quality-control">Quality Control</a>
-	</li>
-</ul>
-<a href="#" class="sub" id = "serviceExpand">+</a>
-</li>
 <li id="menu-item-121" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121">
-<a href="<?php bloginfo('url'); ?>/index.php/renewable-energy/">RENEWABLE ENERGY</a>
+<a href="<?php bloginfo('url'); ?>/index.php/renewable-energy/">SOLAR ENERGY</a>
 	</li>
 </ul>	
 					</div>

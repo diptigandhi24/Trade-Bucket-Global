@@ -5,69 +5,75 @@
  * support for dropdown menus.
  */
 ( function() {
-	var container, button, menu, links, subMenus, menuicon , shownav,
-	servicesmenu, serviceButton;
+	
+	var container, button, subMenusIcon, menuicon , showNavMenu,
+	    servicesButton , servicesSubmenu , industriesButton , industriesSubmenu ,test;
 
 	container = document.getElementsByClassName( 'cont-nav' )[0];
-	if ( ! container ) {
+	menuicon = document.getElementById('menu-icon');
+	showNavMenu = container.getElementsByClassName('showNavMenu')[0]; 
+	servicesButton = document.getElementById("servicesSubmenuButton");
+	industriesButton = document.getElementById("supportedIndustriesSubmenuButton");
+	console.log("PRINTING THE VALUE AT THE BEGINNING" , industriesButton);
+	industriesSubmenu=showNavMenu.getElementsByClassName('sub-menu')[1];
+	servicesSubmenu = showNavMenu.getElementsByClassName('sub-menu')[0];
+	
+	/*if ( ! container ) {
 		return;
 	}
-	else{console.log("yes container object exits" , container.childNodes.length);
+	else{
+		console.log("yes container object exits" , container.childNodes.length);
 	for (var i = 0 ; i < container.childNodes.length ; i++) {
 		console.log("container Element Object  : ",i , container.childNodes[i]);
 	};
 
-}
-	button= document.getElementById('menu-icon');
-	
+}*/
+	function expand(){
 
-
-	menu = container.getElementsByTagName( 'ul' )[0];
-	
-	// Hide menu toggle button if menu is empty and return early.
-	if ( 'undefined' === typeof menu ) {
-		button.style.display = 'none';
-		return;
+		console.log("calling expand function");
+		if ( -1 !== showNavMenu.className.indexOf( 'toggled' ) ) {
+			console.log("inside if condition ");
+			menuicon.innerHTML = "<span class='menu-button'> </span><span class='menu-button'> </span><span class='menu-button'> </span><p class='mobileMenuIcon'>Menu</p>";
+			showNavMenu.className = showNavMenu.className.replace( ' toggled', '' );
+			showNavMenu.style.display="none";
+			if(-1 !== servicesSubmenu.className.indexOf('toggled')){
+			servicesSubmenu.className = servicesSubmenu.className.replace('toggled' ,'');
+			servicesSubmenu.style.display="none" ;
+			servicesButton.innerHTML="+" ;
+			}
+			if(-1 !== industriesSubmenu.className.indexOf('toggled')){
+			industriesSubmenu.className = industriesSubmenu.className.replace('toggled','');
+			industriesSubmenu.style.display="none" ;
+			industriesButton.innerHTML="+" ;}
+		} else {
+			menuicon.innerHTML = "<p style='color:white;'>Close</p>";
+			console.log("inside onclick else condition" ,showNavMenu.className.indexOf( 'toggled' ));
+			showNavMenu.className += ' toggled';
+			showNavMenu.style.display="block";
+		}
 	}
-	servicesmenu=container.getElementsByClassName('sub-menu')[1];
-	serviceButton=document.getElementById('serviceExpand');
 	
-	shownav=container.getElementsByClassName('test')[0];
-	button.onclick = function() {
-		
-		if ( -1 !== container.className.indexOf( 'toggled' ) ) {
-			console.log("inside if condition ");
-			button.innerHTML = "<span class='menu-button'> </span><span class='menu-button'> </span><span class='menu-button'> </span><p class='mobileMenuIcon'>Menu</p>";
-			container.className = container.className.replace( ' toggled', '' );
-			button.setAttribute( 'aria-expanded', 'false' );
-			menu.setAttribute( 'aria-expanded', 'false' );
-			shownav.style.display="none";
-		} else {
-			button.innerHTML = "<p style='color:white;'>Close</p>";
-			console.log("inside onclick else condition" ,container.className.indexOf( 'toggled' ));
-			container.className += ' toggled';
-			button.setAttribute( 'aria-expanded', 'true' );
-			menu.setAttribute( 'aria-expanded', 'true' );
-			shownav.style.display="block";
+	//Access the submenu button
+	function toggleSubmenu(button , menuContent){
+		console.log("calling toggleSubmenu function" , menuContent);
+		if(-1!== menuContent.className.indexOf('toggled')){
+			button.innerHTML = "+";
+			menuContent.className = menuContent.className.replace('toggled' , '' );
+			menuContent.style.display="none";
+		}else{
+				button.innerHTML = "X";
+				menuContent.className += ' toggled';
+				menuContent.style.display="block";
+
 		}
-	};
-	serviceButton.onclick = function() {
-		
-		if ( -1 !== servicesmenu.className.indexOf( 'doggled' ) ) {
-			console.log("inside if condition ");
-			serviceButton.innerHTML = "+";
-			servicesmenu.className = servicesmenu.className.replace( ' doggled', '' );
-			serviceButton.setAttribute( 'aria-expanded', 'false' );
-			menu.setAttribute( 'aria-expanded', 'false' );
-			servicesmenu.style.display="none";
-		} else {
-			serviceButton.innerHTML = "close";
-			console.log("inside onclick else condition" ,servicesmenu.className.indexOf( 'doggled' ));
-			servicesmenu.className += ' doggled';
-			serviceButton.setAttribute( 'aria-expanded', 'true' );
-			menu.setAttribute( 'aria-expanded', 'true' );
-			servicesmenu.style.display="block";
-		}
-	};
+
+	}
 	
-} )();
+	servicesButton.onclick = function(){toggleSubmenu(servicesButton , servicesSubmenu);}
+	menuicon.onclick = expand;
+	console.log("VALUE OF industriesButton " , industriesButton);
+	industriesButton.onclick = function(){toggleSubmenu(industriesButton , industriesSubmenu);}
+	
+	}
+	
+ )();
