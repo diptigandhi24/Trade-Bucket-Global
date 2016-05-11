@@ -142,33 +142,27 @@
 						<h1>Services</h1>
 						 <img src="<?php bloginfo('stylesheet_directory'); ?>/img/boximage1.png"/>
 						<ul>
-						<li><a href="http://www.continentalgroup.com/services/air-services">Air Services</a></li>
-						<li><a href="http://www.continentalgroup.com/services/ocean-services">Ocean Services</a></li>
-						<li><a href="http://www.continentalgroup.com/services/door-to-door">Door to Door</a></li>
-						<li><a href="http://www.continentalgroup.com/services/custom-clearance">Custom Clearance</a></li>
-						<li><a href="http://www.continentalgroup.com/services/transportation-distribution">Transportation 								&amp; Distribution</a></li>
+						<li><a href="<?php bloginfo('url'); ?>/index.php/services/">Air services</a></li>
+						<li><a href="<?php bloginfo('url'); ?>/index.php/services/#sourcing">Sourcing of Product</a></li>
+						<li><a href="<?php bloginfo('url'); ?>/index.php/services/#ImportExport">Import-Export Services</a></li>
+						<li><a href="<?php bloginfo('url'); ?>/index.php/services/#warehousing">WareHousing</a></li>
+						<li><a href="<?php bloginfo('url'); ?>/index.php/services/#custom-Packaging">Custom Packing</a></li>
 						</ul>
 					</div>
 					<div class="home-box-content" id="homebox2">
 						<h1>Supported Industries</h1>
 						<img src="<?php bloginfo('stylesheet_directory'); ?>/img/box2Image.jpg"/>
 						<ul>
-						<li><a href="http://www.continentalgroup.com/services/air-services">Pharmaceutical and Chemaicals</a></li>
-						<li><a href="http://www.continentalgroup.com/services/ocean-services">Garments and Furnishings</a></li>
-						<li><a href="http://www.continentalgroup.com/services/door-to-door">Buiilding material/Construction Materials</a></li>
-						<li><a href="http://www.continentalgroup.com/services/custom-clearance">FMCG / Cosmetic and Food</a></li>
-						<li><a href="http://www.continentalgroup.com/services/transportation-distribution">Energy Solutions</a></li>
+						<li><a href="<?php bloginfo('url'); ?>/index.php/industries/#G&F">Garment and Furnishing</a></li>
+						<li><a href="<?php bloginfo('url'); ?>/index.php/industries/#P&C">Pharmaceutical & Chemicals</a></li>
+						<li><a href="<?php bloginfo('url'); ?>/index.php/industries/#B&c&E">Building & construction Materials</a></li>
+						<li><a href="<?php bloginfo('url'); ?>/index.php/industries/#FMCG">FMGC / Cosmetic & food</a></li>
 						</ul>
 					</div>
 					<div class="home-box-content" id="homebox3">
 						<h1>Experience</h1>
 						<img src="<?php bloginfo('stylesheet_directory'); ?>/img/box3Image.jpg"/>
 						<ul>
-						<li><a href="http://www.continentalgroup.com/services/air-services">Air Services</a></li>
-						<li><a href="http://www.continentalgroup.com/services/ocean-services">Ocean Services</a></li>
-						<li><a href="http://www.continentalgroup.com/services/door-to-door">Door to Door</a></li>
-						<li><a href="http://www.continentalgroup.com/services/custom-clearance">Custom Clearance</a></li>
-						<li><a href="http://www.continentalgroup.com/services/transportation-distribution">Transportation 								&amp; Distribution</a></li>
 						</ul>
 					</div>
 
